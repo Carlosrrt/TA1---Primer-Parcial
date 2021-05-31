@@ -14,4 +14,15 @@
         <button type="submit">Enviar</button>
         
     </form>
+    <?php
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            echo $_POST['nombre']
+            echo $_POST['Apellido']
+            echo $_POST['edad']
+            echo $_POST['telefono']
+            echo $_POST['email']
+            echo $_POST['telefono']
+            echo $_POST['FeNa']
+        }
+    ?>
 </html>
